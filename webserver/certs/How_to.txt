@@ -1,0 +1,12 @@
+for EC based certificates and keys:
+https://stackoverflow.com/questions/11992036/how-do-i-create-an-ecdsa-certificate-with-the-openssl-command-line
+however:
+to be abale to use the key in the CS u must use -noout in key generation part 
+to aviod 2 segment key
+
+for ED based certificates and keys:
+https://blog.pinterjann.is/ed25519-certificates.html
+
+for RSA use both of these links:
+https://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl
+https://stackoverflow.com/questions/59981739/how-to-make-self-signed-rsa-pss-rsae-certificate-using-openssl
