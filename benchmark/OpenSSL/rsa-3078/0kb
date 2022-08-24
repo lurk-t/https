@@ -1,0 +1,9 @@
+Running 30s test @ https://192.168.192.168:8080/0Kb
+  1 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   394.43us   59.04us   1.97ms   67.95%
+    Req/Sec   260.41      5.49   272.00     81.40%
+  7810 requests in 30.10s, 1.22MB read
+  Socket errors: connect 0, read 7810, write 0, timeout 0
+Requests/sec:    259.47
+Transfer/sec:     41.56KB
